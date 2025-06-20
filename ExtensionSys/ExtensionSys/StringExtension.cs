@@ -11,7 +11,7 @@ namespace ExtensionSys
                 // Reverse a string
         public static string Reverse(this string value)
         {
-            if (value == null) return null;
+            if (value == null) return null!;
             char[] charArray = value.ToCharArray();
             Array.Reverse(charArray);
             return new string(charArray);

@@ -31,18 +31,6 @@ using ExtensionSys;
 
 ### String Extensions
 
-#### IsNullOrEmpty()
-```csharp
-string text = "";
-bool isEmpty = text.IsNullOrEmpty(); // true
-```
-
-#### IsNullOrWhiteSpace()
-```csharp
-string text = "   ";
-bool isWhiteSpace = text.IsNullOrWhiteSpace(); // true
-```
-
 #### Reverse()
 ```csharp
 string text = "Hello";
@@ -65,28 +53,28 @@ string truncated = text.Truncate(10); // "This is a "
 
 #### IsWeekend() / IsWeekday()
 ```csharp
-DateTime date = new DateTime(2025, 7, 5); // Saturday
+DateTime date = new DateTime(2025, 8, 3); // Sunday
 bool isWeekend = date.IsWeekend(); // true
 bool isWeekday = date.IsWeekday(); // false
 ```
 
 #### StartOfDay() / EndOfDay()
 ```csharp
-DateTime date = new DateTime(2025, 7, 4, 14, 30, 45);
-DateTime startOfDay = date.StartOfDay(); // 2025-07-04 00:00:00
-DateTime endOfDay = date.EndOfDay(); // 2025-07-04 23:59:59.9999999
+DateTime date = new DateTime(2025, 8, 4, 14, 30, 45);
+DateTime startOfDay = date.StartOfDay(); // 2025-08-04 00:00:00
+DateTime endOfDay = date.EndOfDay(); // 2025-08-04 23:59:59.9999999
 ```
 
 #### StartOfMonth() / EndOfMonth()
 ```csharp
-DateTime date = new DateTime(2025, 7, 15);
-DateTime startOfMonth = date.StartOfMonth(); // 2025-07-01 00:00:00
-DateTime endOfMonth = date.EndOfMonth(); // 2025-07-31 23:59:59.9999999
+DateTime date = new DateTime(2025, 8, 15);
+DateTime startOfMonth = date.StartOfMonth(); // 2025-08-01 00:00:00
+DateTime endOfMonth = date.EndOfMonth(); // 2025-08-31 23:59:59.9999999
 ```
 
 #### StartOfYear() / EndOfYear()
 ```csharp
-DateTime date = new DateTime(2025, 7, 4);
+DateTime date = new DateTime(2025, 8, 4);
 DateTime startOfYear = date.StartOfYear(); // 2025-01-01 00:00:00
 DateTime endOfYear = date.EndOfYear(); // 2025-12-31 23:59:59.9999999
 ```
@@ -95,7 +83,7 @@ DateTime endOfYear = date.EndOfYear(); // 2025-12-31 23:59:59.9999999
 ```csharp
 DateTime birthDate = new DateTime(1990, 5, 15);
 int age = birthDate.CalculateAge(); // Calculates age from birth date to today
-int ageAtDate = birthDate.CalculateAge(new DateTime(2025, 7, 4)); // Age at specific date
+int ageAtDate = birthDate.CalculateAge(new DateTime(2025, 8, 4)); // Age at specific date
 ```
 
 ## Project Structure

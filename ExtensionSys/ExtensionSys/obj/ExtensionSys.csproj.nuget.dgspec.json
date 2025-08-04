@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj": {}
+    "C:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj": {}
   },
   "projects": {
-    "c:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj": {
+    "C:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj",
+        "projectUniqueName": "C:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj",
         "projectName": "ExtensionSys",
-        "projectPath": "c:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj",
+        "projectPath": "C:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\ExtensionSys.csproj",
         "packagesPath": "C:\\Users\\jsun1\\.nuget\\packages\\",
-        "outputPath": "c:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\obj\\",
+        "outputPath": "C:\\GitHubCode\\utilization\\ExtensionSys\\ExtensionSys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
